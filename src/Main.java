@@ -52,6 +52,24 @@ public class Main {
         numberWorkers = numberWorkers + 94;
         var time = totalTime / numberWorkers;
         System.out.println("Если в компании работает " + numberWorkers + " человек, то всего " + time + " часов работы может быть поделено между сотрудниками");
+
+        //Переменные часть 2
+
+        int a = 10;
+        System.out.println("Значение переменной a с типом int равно " + a);
+        byte b = 100;
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        short c = 1000;
+        System.out.println("Значение переменной c с типом short равно " + c);
+        long d = 100000;
+        System.out.println("Значение переменной d с типом long равно " + d);
+        float e = 1.0011F;
+        System.out.println("Значение переменной e с типом float равно " + e);
+        double f = 10.11000;
+        System.out.println("Значение переменной f с типом double равно " + f);
+
+
+
     }
 }
 
