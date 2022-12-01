@@ -54,6 +54,7 @@ public class Main {
         System.out.println("Если в компании работает " + numberWorkers + " человек, то всего " + time + " часов работы может быть поделено между сотрудниками");
 
         //Переменные часть 2
+        //Задача 1
 
         int a = 10;
         System.out.println("Значение переменной a с типом int равно " + a);
@@ -67,6 +68,43 @@ public class Main {
         System.out.println("Значение переменной e с типом float равно " + e);
         double f = 10.11000;
         System.out.println("Значение переменной f с типом double равно " + f);
+
+        //Задача 2
+
+        double apples = 27.12;
+        long bananas = 987_678_965_549L;
+        float tomato = 2.786F;
+        boolean cucumber = false;
+        int potato = 569;
+        short pumpkin = -159;
+        short pear = 27897;
+        byte cherry = 67;
+
+        //Задача 3
+
+        byte classA = 23;
+        byte classB = 27;
+        byte classC = 30;
+        int student = classA + classB + classC;
+        int totalPaper = 480;
+        int forOneStudent = totalPaper / student;
+        System.out.println("На каждого ученика рассчитано " + forOneStudent + " листов бумаги");
+
+        //Задача 4
+
+        int bottlesForMinute = 16;
+        int twoMinute = 2;
+        int amountBottles = bottlesForMinute / twoMinute;
+        int twentyMinute = 20;
+        System.out.println("За "+twentyMinute+ " минут машина произвела бутылок "+amountBottles * twentyMinute +" штук");
+        int oneDay = 24 * 60;
+        System.out.println("За "+oneDay+ " минут машина произвела бутылок "+amountBottles * oneDay +" штук");
+        int threeDay = 3 * oneDay;
+        System.out.println("За "+threeDay+ " минут машина произвела бутылок "+amountBottles * threeDay +" штук");
+        int oneMonth = 30 * oneDay;
+        System.out.println("За "+oneMonth+ " минут машина произвела бутылок "+amountBottles * oneMonth +" штук");
+
+
 
 
 
