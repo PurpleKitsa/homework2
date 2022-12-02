@@ -135,7 +135,7 @@ public class Main {
         int maxLostWeight = 500;
         System.out.println("Потребуется дней " + needLostWeight / minLostWeight +" при потере 250 грамм");
         System.out.println("Потребуется дней " + needLostWeight / maxLostWeight +" при потере 500 грамм");
-        System.out.println("Потребуется дней " + (needLostWeight / minLostWeight) % (needLostWeight / maxLostWeight) + " в среднем");
+        System.out.println("Потребуется дней " + ( (needLostWeight / minLostWeight) + (needLostWeight / maxLostWeight) ) / 2 + " в среднем");
 
 
         //Задача 8
